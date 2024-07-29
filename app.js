@@ -33,7 +33,7 @@ $(function () {
     classDiv.addClass("new-class");
   });
   removeButton.on("click", function () {
-    if (container.hasClass("new-class")) {
+    if (classDiv.hasClass("new-class")) {
       classDiv.removeClass("new-class");
     }
   });
